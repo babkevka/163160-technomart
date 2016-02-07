@@ -21,3 +21,305 @@ h2 {
     font-weight: normal;
     font-family: Arial;
 }
+
+.main-header {
+    background: #293449;
+    height: 43px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.main-header .conteiner {
+    width: 940px;
+    margin: auto;
+}
+
+.main-header a {
+    color: #fff;   
+}
+
+.main-header .logo {
+    float: left;
+    outline: 3px #ee3643 solid;
+    width: 220px;
+    height: 43px;
+}
+
+.main-header .search {
+    float: left;
+    outline: 3px #ee3643 solid;
+    width: 90px;
+    height: 43px;
+    margin-left: 10px;
+}
+
+.main-header .right {
+    float: right;  
+}
+
+.main-header .share {
+    float: left;
+    outline: 3px #ee3643 solid;
+    width: 141px;
+    height: 43px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-header .basket {
+    float: left;
+    outline: 3px #ee3643 solid;
+    width: 140px;
+    height: 43px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-header .order {
+    float: left;
+    outline: 3px #63a63e solid;
+    width: 140px;
+    height: 43px;
+    margin-left: 10px;
+}
+
+.header-columns {
+    width: 940px;
+    background: #f8f59d;
+    height: 140px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.header-columns .column-left {
+    float: left;
+    outline: 3px #ff9c00 solid;
+    width: 300px;
+    height: 140px;
+    margin-right: 10px;
+}
+
+.header-columns .column-center {
+    float: left;
+    outline: 3px #ff9c00 solid;
+    width: 300px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-columns .column-right {
+    float: left;
+    outline: 3px #ff9c00 solid;
+    width: 300px;
+    height: 140px;
+    margin-left: 10px;
+
+}
+
+.navigation-header {
+    width: 940px;
+    background: #32425c;
+    height: 60px;
+    margin-bottom: 60px;
+    margin: auto;
+}
+
+.navigation-list li {
+    float: left;
+    outline: 3px #fff solid;
+    margin-right: 34px;
+    margin-left: 34px;
+    margin-top: 15px;
+}
+
+.navigation-list a {
+    color: #fff;
+}
+
+.main {
+    width: 940px;
+    margin: auto;
+    background-color: #5acca0;
+}
+
+.breadcrumbs {
+   outline: 3px #a93de1 solid;
+   margin-bottom: 25px;
+}
+
+.breadcrumbs-list li {
+    display: inline-block;
+    outline: 3px #ea4add solid;
+    margin-right: 21px;
+    margin-left: 21px;
+}
+
+.main .header {
+    outline: 3px #32425c solid;
+    background: #f2f6f8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+
+}
+
+.main .column-left {
+    float: left; 
+    width: 220px;
+    background: #e8cdfa;
+}
+
+.main .column-right {
+    float: right;
+    width: 700px;
+    background: #e8cdfa;
+}
+
+.perforators {
+    clear: both;
+}
+
+.sorting {
+    height: 38px;
+    outline: 3px #251d94 solid;
+    background: #f7f3ec;
+    margin-bottom: 20px;
+}
+
+.sorting h4 {
+    float: left;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.sorting ul {
+    float: right;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.sorting li {
+    display: inline-block;
+    outline: 3px #000 solid;
+    margin-right: 36px;
+    margin-left: 36px;
+}
+
+.products {
+    margin-bottom: 50px;
+    
+}
+
+.products .item {
+    float: left;
+    outline: 3px #000 solid;
+    width: 183px;
+    height: 290px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.pager {
+    clear: both;
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+
+.pager ul {
+   margin: 0;
+   padding: 0;
+}
+
+.pager li {
+    display: inline-block;
+    outline: 3px #000 solid;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding : 7px 10px 7px 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.perforators {
+    background: #f2f6f8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.perforators .text {
+    width: 950px;
+    outline: 3px #ea4add solid;
+    margin: auto;
+}
+
+.footer-top {
+    background: #32425c;
+    min-height: 190px;    
+}
+
+.wrapper {
+    width: 950px;
+    outline: 3px #eae822 solid;
+    margin: auto;
+    color: #fff; 
+    min-height: 106px;
+}
+
+.wrapper a{
+    color: #fff;
+}
+
+.wrapper .left {
+    float: left;
+    width: 320px;
+    outline: 3px #fff solid;
+}
+
+.wrapper .right {
+    float: right;
+    width: 570px;
+    outline: 3px #fff solid;
+}
+
+.footer-top li{
+    display: inline-block;
+}
+
+.footer-bottom {
+    background: #293449;
+    min-height: 106px;
+}
+
+.wrapper .company {
+    float: left;
+    outline: 3px #fff solid;
+    margin-right: 100px;
+}
+
+.wrapper .social {
+    float: left;
+    outline: 3px #fff solid;
+    width: 180px;
+    margin-right: 50px;
+}
+
+.wrapper .mail {
+    float: left;
+    outline: 3px #fff solid;
+    width: 150px;
+}
+
+.wrapper .copyright {
+    float: right;
+    outline: 3px #fff solid;
+    width: 150px;
+}
+
+
