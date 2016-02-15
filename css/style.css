@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size: 13px;
     line-height: 24px;
@@ -22,6 +27,11 @@ h2 {
     font-family: Arial;
 }
 
+header {
+    background: #f1f5f7;
+    padding-bottom: 60px;
+}
+
 .main-header {
     background: #293449;
     height: 43px;
@@ -29,7 +39,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.main-header .conteiner {
+.main-header .container {
     width: 940px;
     margin: auto;
 }
@@ -87,8 +97,8 @@ h2 {
     width: 940px;
     background: #f8f59d;
     height: 140px;
-    margin-bottom: 20px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .header-columns .column-left {
@@ -126,10 +136,10 @@ h2 {
 }
 
 .navigation-list li {
-    float: left;
+    display: inline-block;
     outline: 3px #fff solid;
-    margin-right: 34px;
-    margin-left: 34px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 15px;
 }
 
@@ -158,11 +168,16 @@ h2 {
 .main .header {
     outline: 3px #32425c solid;
     background: #f2f6f8;
+    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
     margin-bottom: 20px;
+    clear: both;
+}
 
+.main .header a {
+    float: right;
 }
 
 .main .column-left {
@@ -171,10 +186,48 @@ h2 {
     background: #e8cdfa;
 }
 
+.main .column-left form li {
+    list-style: none;
+}
+
 .main .column-right {
     float: right;
     width: 700px;
     background: #e8cdfa;
+}
+
+.slider {
+    width:  620px;
+    height: 266px;
+    overflow: hidden;
+    outline: 3px #251d94 solid; 
+}
+
+.categories {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.categories .box {
+    margin-bottom: 20px;
+    width:  300px;
+    height: 123px;
+    outline: 3px #251d94 solid;
+}
+
+.categories-left .box {
+    float: left;
+    margin-right: 20px;
+}
+
+.categories-left {
+    float: left;
+    width: 640px;
+}
+
+.categories-right {
+    float: right;
+    width: 300px;
 }
 
 .perforators {
@@ -223,6 +276,78 @@ h2 {
     margin-bottom: 20px;
     margin-right: 20px;
 }
+
+.firms .item {
+    float: left;
+    outline: 3px #000 solid;
+    width: 210px;
+    height: 143px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.services {
+    clear: both;
+    background: #f2f6f8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.services .container {
+    width: 940px;
+    margin: auto;
+}
+
+.services .menu {
+    float: left;
+    width: 240px;
+    outline: 3px #000 solid;
+}
+
+.services .delivery {
+    float: right;
+    width: 620px;
+    outline: 3px #000 solid;
+}
+
+.services .items {
+    padding-top: 40px;
+}
+
+.services .items .text {
+    float: left;
+    width: 285px;
+    margin-right: -200px;
+    outline: 3px #000 solid;
+}
+
+.services .delivery img {
+    float: right;
+}
+
+.about-as {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-as .container {
+    width: 940px;
+    margin: auto;
+    outline: 3px #000 solid;
+}
+.about-as .left {
+    float: left;
+    width: 530px;
+    outline: 3px #000 solid;
+}
+
+.about-as .right {
+    float: right;
+    width: 300px;
+    outline: 3px #000 solid;
+}
+
 
 .pager {
     clear: both;
